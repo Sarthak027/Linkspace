@@ -11,6 +11,9 @@ A full-stack internship assignment that recreates the core flows of LinkedIn: si
 - **Profile surface + logout** badge in the navigation bar so users can always see (and manage) their authenticated state.
 - **Responsive, accessible UI** built with Tailwind CSS, shadcn/ui primitives, Lucide icons, and Sonner toasts for feedback loops.
 
+## Live Demo
+Visit the production deployment at [linkspace-five.vercel.app](https://linkspace-five.vercel.app/).
+
 ## Tech Stack
 | Layer | Tools |
 |-------|-------|
@@ -122,5 +125,4 @@ Visit `http://localhost:5173`, create an account, and start posting.
 - **Storage policy failures** – Make sure the `post-images` bucket exists; re-run `supabase db push` if needed so the policy migration applies.
 
 ---
-
 
